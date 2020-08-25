@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basics of Teamfight Tactics</title>
+  </head>
+  <body>
+    <header>
+      <!--       Learn more: Navbar
+      https://getbootstrap.com/docs/4.5/components/navbar/#text -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Teamfight Tactics</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tftabout.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="tftbasics.html"
+                >Basics <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="#top">
+      <div class="container-fluid">
+        <div class="container">
+          <h2>
+            <u>Units, Classes, and Origins</u>
+          </h2>
+          <p>
+            Units in this game have a class and an origin, and if you put a
+            certain amount of units with the same class or origin, you make
+            those units stronger. Having a lot of units sharing one synergy can
+            even further improve the synergy.
+          </p>
+          <p>
+            They also cast an ability after their
+            <span class="mana">mana</span> bar is full, and some units take a
+            long time with large <span class="mana">mana</span> costs, while
+            some units can spam out their abilities with small
+            <span class="mana">mana</span> costs. The way every champion gets
+            <span class="mana">mana</span
+            ><span class="note"
+              >(except one which will be mentioned in classes)</span
+            >
+            is by auto-attacking, and each champion gets 10
+            <span class="mana">mana</span> per auto-attack. There are items and
+            passives that help a unit get more, but the base amount is 10
+            <span class="mana">mana</span>.
+          </p>
+          <p>
+            There are also synergies that affect casting, such as Astro reducing
+            the <span class="mana">mana</span> cost to cast an ability when
+            there are 3 of those units on the board.
+          </p>
+          <p>
+            There are unit exceptions where they do not have an ability, but
+            they have a passive to compensate for their lack of ability.
+          </p>
+          <p>
+            Each unit can be also be different tiers/costs, where more powerful
+            units have higher costs<span class="note"
+              >(There are 1, 2, 3, 4, and 5-cost units, bought with the
+              corresponding amount of gold)</span
+            >.
+          </p>
+          <p>
+            Units also have stats that vary, but every unit has some amount of
+          </p>
+          <ul>
+            <li><span class="hp">health</span></li>
+            <li>starting and total <span class="mana">mana</span></li>
+            <li><span class="mr">magic resistance</span></li>
+            <li><span class="armor">armor</span></li>
+            <li><span class="ad">attack damage</span></li>
+            <li>
+              <span class="as">attack speed</span>
+            </li>
+            <li>
+              <span class="ap">ability power</span>
+
+              <br /><span class="armor">Armor</span> and
+              <span class="mr">magic resistance</span> mitigate
+
+              <span class="ad">attack</span> and
+              <span class="ap">magic/ability</span> damage respectively, similar
+              to League of Legends.
+            </li>
+          </ul>
+
+          <p>
+            There are a lot of units with a different class and origins, and
+            with different abilities, but once you use them, you can understand
+            the role they play in combet; for example, Brawlers can absorb
+            damage, Snipers do damage from afar, and Infiltrators try to take
+            out damage-dealers in your opponent's backrow.
+          </p>
+          <p>
+            You can play units on your board based on your level or keep them on
+            your bench. When you get 3 copies of the same unit, it upgrades into
+            a more powerful, silver, 2-star version of itself, increasing its
+            own stats.
+          </p>
+          <p>
+            You can even get 3 of those upgraded versions into its final
+            upgraded form, its golden, 3-star form. The chance of 3-starring a
+            unit is low, but it results in a high payoff<span class="note"
+              >(especially if you get a 3, 4, or 5-cost in its golden form,
+              although extremely tough and nearly impossible for 5-costs)</span
+            >.
+          </p>
+          <p>
+            When a 1-star unit is sold, you gain back that amount of gold. If an
+            upgraded unit is sold, there a is a 1-gold sell penalty.<br />
+            For example, a 2-star, 5-cost unit sells for 14 gold since you buy 3
+            5-costs, or 15 gold to make in the first place.<br />
+            There are a lot of basics to get through, but this will hopefully
+            give you an understanding of what to play.
+          </p>
+        </div>
+        <div class="container">
+          <h2>
+            <u>The Board</u>
+          </h2>
+          <p>
+            The board consists of 8 rows of 7 hexes, with the bottom half of the
+            board reserved for placing your units and the top half reserved for
+            your opponents during combat rounds.
+          </p>
+          <p>
+            From your opponents' perspectives, they would all have the bottom
+            half of the board.
+          </p>
+        </div>
+        <div class="container">
+          <h2>
+            <u>The Classes</u>
+          </h2>
+
+          <h5>
+            <span class="trait"
+              >Blademaster(<span class="one">3</span>/<span class="three"
+                >6</span
+              >/<span class="four">9</span>)*</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F5f047e90-c148-4ba8-8783-2a3521354d0d.image.png?1597867323163"
+            />
+          </h5>
+
+          <p>
+            Blademasters' auto-attacks has a 30/70/100% chance to trigger 2
+            additional auto-attacks.<br />
+            <span class="note"
+              >Note: If there are synergies that have very high numbers, this
+              means that they can be extremely hard to get, an example being 9
+              blademasters. I will refer to them as a "chase synergy" from now
+              on. They require extreme luck and specific components(I will talk
+              about this in the items section), yet have very high payoffs. They
+              also show a rainbow color when you complete one.</span
+            >
+          </p>
+
+          <br />
+          <h5>
+            <span class="trait"
+              >Blaster(<span class="one">2</span>/<span class="three">4</span
+              >)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F80ead72a-0131-49d9-8b87-beb24e30c0c6.image.png?v=1597867344007"
+            />
+          </h5>
+          <p>
+            Blasters can fire an additional 3/6 shots<span class="note"
+              >(which has properties similar to auto-attacks)</span
+            >
+            at enemies every fourth auto-attack.
+          </p>
+
+          <p>
+            <span class="trait"
+              >Brawler(<span class="one">2</span>/<span class="three">4</span
+              >)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F715f6fe6-9afc-43dd-b150-e40f33de28d2.image.png?v=1597867353381"
+            /><br />
+            Brawlers have 350/600 additional
+            <span class="hp">maximum health</span>.<br /><br />
+
+            <span class="trait"
+              >Demolitionist(<span class="three">2</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F080c2517-1c70-4878-86a9-4a4cbebeca92.image.png?v=1597867382895"
+            /><br />
+            Demolitionists' <span class="ap">spells/abilities</span> stun their
+            targets for 1.5 seconds.<br /><br />
+
+            <span class="trait"
+              >Infiltrator(<span class="one">2</span>/<span class="three"
+                >4</span
+              >/<span class="four">6</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F22890482-580c-4468-8e85-c6ccbb5a1afb.image.png?v=1598046114206"
+            /><br />
+            Passive: Infiltrators jump to the back of the opponent's board at
+            the beginning of combat.<br />
+            Infiltrators gain an additional 40/80/150%
+            <span class="as">attack speed</span> at the beginning of combat,
+            reset after every Infiltrator takedown<span class="note"
+              >(when an Infiltrator kills a unit).</span
+            ><br /><br />
+
+            <span class="trait">Mana-Reaver(<span class="three">2</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F8bc0c661-b320-49fc-afd4-d5655067e14b.image.png?1598046122894"
+            /><br />
+            Every Mana-Reaver auto-attack increases the
+            <span class="mana">mana</span> cost of its target's next ability by
+            30%.<br /><br />
+
+            <span class="trait">Mercenary(<span class="three">1</span>)</span
+            ><span class="note">(Only one is Gangplank)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F6e6ccda1-28b8-4223-a691-7a2cc9b61cf8.image.png?1598046128201"
+            /><br />
+            When a Mercenary unit is on your bench or on your board, there is is
+            a chance your shop can contain Mercenary-only upgrades, costing 8
+            gold. These upgrades ONLY apply to the ability of your unit.<br />
+            The upgrades for Gangplank are Larger Area, Double Impact, and
+            Faster Impact<span class="note"
+              >(maybe not the exact names, but upgrades are self
+              explanatory).<br />
+              Note: When a Mercenary unit is sold so you have no more of them,
+              you lose the upgrades; if you re-buy the unit in this case, you
+              will have to buy upgrades again.</span
+            ><br /><br />
+
+            <span class="trait"
+              >Mystic(<span class="one">2</span>/<span class="three">4</span
+              >)</span
+            ><span class="note"
+              >(First teamwide buff regardless of synergy)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fa623babc-ff32-4cbc-a8c1-fe7be3892907.image.png?1598046136344"
+            /><br />
+            ALL allies gain a bonus 50/120
+            <span class="mr">magic resistance</span>.<br /><br />
+
+            <span class="trait">Paragon(<span class="three">1</span>)</span>
+            <span class="note"
+              >(Only one is Janna, a Star Guardian, you'll see why)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fd27a6180-6e01-4333-ab68-296a6cfd49cf.image.png?1598046141851"
+            /><br />
+            All ally auto-attacks are converted to
+            <span class="ap">magic damage</span>, except ally Star Guardians,
+            where their auto-attacks are converted to
+            <span class="four">true damage. </span><br />
+            <span class="note"
+              >Note: <span class="four">True damage</span> bypasses both armor
+              and magic resistance, <span class="ap">magic damage</span> is the
+              damage dealt by abilities.In this trait, both damages are
+              converted based on the unit's
+              <span class="ad">attack damage</span>, since the damage comes from
+              auto-attacking.</span
+            ><br /><br />
+
+            <span class="trait"
+              >Protector(<span class="one">2</span>/<span class="three">4</span
+              >/<span class="four">6</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F67398070-69e7-4283-9424-ec73825ba6d6.image.png?1598046147695"
+            /><br />
+            Protector units gain a 30/40/50%
+            <span class="hp">maximum health</span> shield after casting an
+            ability. This shield does not stack, but can refresh if the shield
+            is not full after casting. <br /><br />
+
+            <span class="trait"
+              >Sniper(<span class="one">2</span>/<span class="three">4</span
+              >)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fa64590b3-c52d-4cfd-bce0-f8ea4c32bb35.image.png?1598046152838"
+            /><br />
+            Sniper units deal 9/16% more damage per hex of distance between
+            itself and the target(<span class="note"
+              >applies to abilities and auto-attacks</span
+            >)<br /><br />
+
+            <span class="trait"
+              >Sorcerer(<span class="one">2</span>/<span class="two">4</span
+              >/<span class="three">6</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F05707760-e88b-40ea-a98a-f036335f5f7e.image.png?1598046159220"
+            /><br />
+            ALL units gain 20/40/70% increased
+            <span class="ap">ability power</span>.<br />
+            <span class="note"
+              >Note: All units benefit from
+              <span class="ap">ability power</span>, not just units with strong
+              abilities, whether it's in their passive or ability. </span
+            ><br />
+
+            <span class="trait">Starship(<span class="three">1</span>)</span
+            ><span class="note">(Only one is Aurelion Sol)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F1b279d1c-e3f9-4dd2-a66b-7689e26f8177.image.png?1598046165089"
+            /><br />
+            Starship units gain 40 <span class="mana">mana</span> per second, do
+            not auto-attack, roam around the board, and are immune to disabling
+            effects more known as crowd control<span class="note"
+              >(which will be noted more in the units section).</span
+            ><br /><br />
+
+            <span class="trait"
+              >Vanguard(<span class="one">2</span>/<span class="two">4</span
+              >/<span class="three">6</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F1363a607-9b1c-4dd3-afef-c31ce4e80e85.image.png?1598046169937"
+            /><br />
+            Vanguard units have an additional 125/300/900
+            <span class="armor">armor</span>.
+          </p>
+        </div>
+        <div class="container">
+          <h2>
+            <u>The Origins</u>
+          </h2>
+          <h5>
+            <span class="trait">Astro(<span class="three">3</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F538fde35-e2fd-43f2-8879-debd90e3efd7.image.png?1598046174894"
+            />
+          </h5>
+          <p>
+            Blademasters' auto-attacks has a 30/70/100% chance to trigger 2
+            additional auto-attacks.<br />
+            <span class="note"
+              >Note: If there are synergies that have very high numbers, this
+              means that they can be extremely hard to get, an example being 9
+              blademasters. I will refer to them as a "chase synergy" from now
+              on. They require extreme luck and specific components(I will talk
+              about this in the items section), yet have very high payoffs. They
+              also show a rainbow color when you complete one.</span
+            >
+            <br />Astro units have their <span class="mana">mana</span> costs
+            reduced by 30.
+          </p>
+          <br />
+
+          <h5>
+            <span class="trait"
+              >Battlecast(<span class="one">2</span>/<span class="two">4</span
+              >/<span class="three">6</span>/<span class="four">8</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F47c1491b-169b-431f-b96b-b4cf0ef26a4d.image.png?1598046181353"
+            />
+          </h5>
+          <p class="card-text">
+            Battlecast units, when dealing or taking 10 separate instances of
+            damage, heal when below 50%
+            <span class="hp">health</span> and deal
+            <span class="ap">magic damage</span> to the nearest enemy unit when
+            above 50% <span class="hp">health</span>. They heal or deal
+            80/180/480/1000 <span class="ap">magic damage</span>.<br />
+            <span class="note"
+              >Note: There are items which deals a lot of instances of damage
+              over time, abilities that hit enemy units at the same time counts
+              as one instance of damage, Blaster attacks counts as multiple
+              instances of damage.</span
+            >
+          </p>
+
+          <p>
+            <span class="trait"
+              >Celestial(<span class="one">2</span>/<span class="three">4</span
+              >/<span class="four">6</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F18c984d9-39bb-4b49-9e58-23d6e382e5d4.image.png?1598046189661"
+            /><br />
+            ALL allies heal 15/45/150% of the damage they deal<span class="note"
+              >(auto-attacks and abilities).</span
+            ><br /><br />
+          </p>
+          <p>
+            <span class="trait"
+              >Chrono(<span class="one">2</span>/<span class="two">4</span
+              >/<span class="three">6</span>/<span class="four">8</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F85e5316b-7808-4120-8ef7-dbcd2905c95f.image.png?1598046220691"
+            /><br />
+            ALL allies gain 15% <span class="as">attack speed</span> every
+            8/3/1/.5 seconds<span class="note"
+              >(<span class="as">attack speed</span> affects
+              auto-attacks).</span
+            ><br /><br />
+          </p>
+          <p>
+            <span class="trait"
+              >Cybernetic(<span class="one">3</span>/<span class="three">6</span
+              >)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fdc1b5076-b657-49fd-b125-b1157990009f.image.png?1598046235655"
+            /><br />
+            Cybernetic allies with at least an item component gain 300/550
+            additional <span class="hp">health</span> and 35/70 additional
+            <span class="ad">attack damage</span>.<br /><br />
+          </p>
+          <p>
+            <span class="trait"
+              >Dark Star(<span class="one">2</span>/<span class="two">4</span
+              >/<span class="three">6</span>/<span class="four">8</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fc1d4b80d-fdb3-483b-b86f-4818a5501e6b.image.png?1598046241331"
+            /><br />
+            When ANY ally dies, Dark Star units gain 8/18/28/48 additional
+            <span class="ad">attack damage</span> and 8/18/28/48% additional
+            <span class="ap">ability power</span>.<br />
+            <span class="note"
+              >Note: If any champion is pulled in from the bench during combat
+              and dies, the Dark Star units will get the additional
+              damage.</span
+            ><br /><br />
+          </p>
+          <p>
+            <span class="trait">Mech-Pilot(<span class="three">3</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F4e6f3d77-c91f-4e78-a56d-0c0aee3f5db2.image.png?1598046247908"
+            /><br />
+            At the start of combat, 3 random Mech-Pilot units are combined into
+            a Super-Mech with the combined stats and synergies(except the
+            passive of Infiltrator), 3 random items, and a different ability and
+            <span class="mana">mana</span>-cost. The Super-Mech's auto-attacks
+            hit an area in front of him. When the Super-Mech dies, the
+            Mech-Pilots are ejected and they continue fighting with 35% of their
+            health.<br />
+            <span class="note"
+              >Note: Levels work differently on the Mech than other units, as
+              the mech has a combined level based on the pilots. This is why the
+              mech can only be levels 3(pilots all 1-starred) through 9(pilots
+              all 3-starred).<br />
+              Mech ability: Mecha-Justice: The Mech launches a blast at a
+              target, dealing
+              <span class="ap">650/700/750/800/900/1200/5000 damage</span>(base
+              damage for levels 3/4/5/6/7/8/9) to the target and
+              <span class="ap">350/375/400/425/450/600/5000 damage</span> to
+              nearby targets)</span
+            >. <br />
+            <img
+              src="https://i0.wp.com/thegamehaus.com/wp-content/uploads/2020/06/mechmechmech.jpg?fit=1600%2C900&ssl=1"
+              class="img-fluid"
+              alt="image"
+            /><br />
+          </p>
+          <p>
+            <span class="trait"
+              >Rebel(<span class="one">3</span>/<span class="three">6</span
+              >/<span class="four">9</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fa7df1647-ea43-40d7-9012-d8827458568a.image.png?1598046252277"
+            /><br />
+            Rebel units gain a 150/225/400 shield and 10/12/20% damage for each
+            adjacent Rebel unit.<br />
+            <span class="note"
+              >Note: Grouping them up together is the best way to utilize this
+              synergy.</span
+            ><br /><br />
+          </p>
+          <p>
+            <span class="trait"
+              >Space Pirate(<span class="one">2</span>/<span class="three"
+                >4</span
+              >)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F35c36ef8-9a7c-4a82-88b8-c745d48a351b.image.png?1598046259078"
+            /><br />
+            Space Pirate units, on a Space Pirate unit's takedown, have a 50%
+            chance of getting 1 gold(2 and 4 bonus), and have a 33% chance of
+            dropping an item(ONLY 4).<br />
+            <span class="note"
+              >Note: Getting this synergy early nets you a lot of gold, but
+              using it late in the game is also very good, as getting a lot of
+              items can win you games.</span
+            ><br /><br />
+          </p>
+          <p>
+            <span class="trait"
+              >Star Guardian(<span class="one">3</span>/<span class="three"
+                >6</span
+              >/<span class="four">9</span>)</span
+            ><img
+              class="class"
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F57ce1375-cfd0-40d5-ac40-afa004954f2b.image.png?1598046265858"
+            /><br />
+            After a Star Guardian casts its ability, all other Star Guardians
+            gain 15/25/60 <span class="mana">mana</span>.
+          </p>
+        </div>
+        <div class="container">
+          <h2>
+            <u>Units</u>
+          </h2>
+          <p>
+            There are about 57 units right now with a lot of combinations, so I
+            will link the entire list
+            <a href="https://tftactics.gg/db/champions">here</a>. Clicking on
+            each champion will show its stats, class, origin, and other units in
+            its class and origin(very useful in-game).<br />
+            <span class="note"
+              >Note: I did the traits because I tried to simplify all the
+              synergies, while most of the units and abilities are complicated.
+              There are a lot of numbers, and some abilities, like Riven's,
+              would take a paragraph to simplify, while traits just need
+              re-phrasing. Not only this, but the abilities have a lot of
+              interactions against certain items, can have crowd control that
+              can be single, multiple, or AOE(area of effect), and the ability
+              targeting can be random, closest, farthest, or farthest but the
+              ability hits the first enemy unit coming into contact. It's better
+              to use the ability and see it in-game than reading it for the
+              first time.</span
+            ><br />
+          </p>
+
+          <!--             Learn more: Media Object
+            https://getbootstrap.com/docs/4.5/components/media-object/#alignment -->
+          <div class="media">
+            <img
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fthumbnails%2F24345720-ea0b-4f7f-8e14-d5d51caee3ad.image.png?1598027607373"
+              class="align-self-start mr-3"
+              alt="..."
+            />
+            <div class="media-body">
+              <h5 class="mt-0">
+                Here's an image of the chart of all Set 3.5 champions:
+              </h5>
+              <p>
+                This shows each champion's class and origin in relation to
+                others; this is important because in-game, you want units with
+                the same synergies to get buffs for your team. Going across the
+                top is the classes in alphabetical order, and going down the
+                left side is the origins in alphabetical order. The
+                classes/origins correspond to an image, such as Astro with an
+                astronaut helmet. This also shows traits for the spatula items,
+                more of that will be explained below.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2>
+            <u>Items and Components</u>
+          </h2>
+          <p>
+            Components can be obtained through killing monsters, the carousel,
+            or, more rarely, the 4 Space Pirate trait<span class="note"
+              >(although the first two are the common ways).</span
+            >
+            They are obtained through orbs, which also could contain gold or
+            champions.<br />
+            Items are the result of combining two components together. Items
+            have an additional effect There are 10 different components with 45
+            unique combinations, and can vary from offensive, defensive, tank,
+            and utility items.<br />
+            The 10 components are: Sword(most known for building
+            <span class="ad">attack damage</span> items), Bow(mostly known for
+            <span class="as">attack speed</span>), Vest(known for tank items
+            relating to <span class="armor">armor</span>), Cloak(known for tank
+            items reducing <span class="mr">magic resistance</span>), Rod(known
+            for increasing <span class="ap">ability power</span>), Tear(known
+            for gaining more <span class="mana">mana</span>), Belt(known for
+            tank items that increase <span class="hp">health</span>),
+            Glove(known for increasing critical hit chance and dodge chance),
+            and Spatula(this item is weird, and will be in a separate
+            category).<br />
+            <span class="note"
+              >Note: Components do increase stats between parentheses(sword by
+              itself grants +15 <span class="ad">attack damage</span>, tear
+              makes a unit start with 15 additional starting
+              <span class="mana">mana</span>, e.t.c.), but full items might not
+              do what the components are intended for.</span
+            ><br />
+            <span class="note"
+              >For example, combining a Vest and Belt will give you Red Buff,
+              which applies a burn that reduces healing for 4 seconds after the
+              item holder auto-attacks . Even though the components are focused
+              on surviving and taking damage, the item is mainly used for
+              Blasters, as they can spread this burn on the 4th additional
+              attack to apply and spread the burn effect.</span
+            ><br />
+          </p>
+        </div>
+        <div class="container">
+          <h3>
+            <u>Spatula Items, Chase Synergies, and Force of Nature</u>
+          </h3>
+          <div class="media">
+            <img
+              src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F32b7e875-976a-4d26-95b6-97b56e0d343f.image.png?1598028734203"
+              class="align-self-start mr-3"
+              alt="..."
+            />
+            <div class="media-body">
+              <p>
+                Spatulas are unique: they can give a unit an additional
+                class/origin to a unit that does not already have it<span
+                  class="note"
+                  >(combining a sword with a spatula and putting it on a
+                  non-Blademaster unit gives them the Blademaster
+                  synergy).</span
+                >
+              </p>
+              <p>
+                These spatulas are rare, and some situations, you may not need
+                them. In other situations, putting the right spatula item on a
+                unit could work really well<br />
+                The rarity of spatulas gives rise to the chase synergies, where
+                there are less units in that trait then what the trait calls
+                for. For example, 9 blademasters while only 7 exist. To get 9
+                blademasters, you need two spatulas with all the other
+                blademasters and be at level 9, the highest level in the
+                game.<br />
+                The chase synergies are: 9 Blademaster, 6 Infiltrator(5 exist),
+                6 Protector(5 exist), 8 Battlecast(6 exist), 6 Celestial(5
+                exist), 8 Chrono(8 do exist, but getting all 8 units is still a
+                feat in-game), 8 Dark Star(6 exist), and 9 Star Guardians(7
+                exist). Every spatula item but one correspond to a synergy
+                listed here<span class="note">(Bow=Infiltrator).</span>
+              </p>
+              <p>
+                There are also bigger payoffs within these chase synergies,
+                depending on how hard it is to pull off and how many units and
+                spatulas are needed. Most of these win you the game when
+                activated.
+              </p>
+              <p>
+                The only exception are 6 Protector not being a huge difference
+                in 4, since a lot of units can benefit from being a Protector,
+                which is why it isn't stronger. It's still a strong synergy
+                anyway.<br /><br />
+                The last case is when two Spatulas are combined, creating a
+                Force of Nature, and the effect is extremely powerful since it
+                can be used with any synergy: You get to add an additional unit
+                on top of what ypu already have. Not only this, but Force of
+                Nature works on the bench<br />
+                Having an extra unit or two over everyone else wins you critical
+                rounds, and having 10 units fills out synergies that were
+                previously impossible at 9 units<span class="note"
+                  >(like 6 Vanguard and 4 Mystics).</span
+                >
+              </p>
+              <p>
+                This also means chase synergies with 9 units can be done at 8,
+                but there is no way you do this unless you are extremely
+                lucky<span class="note">(getting 3 or 4 spatulas).</span>
+              </p>
+              <p class="mb-0">
+                Here is the full item list
+                <a href="https://lolchess.gg/items?hl=en-US">here</a>, hover
+                over for effect and base stats added. The components on top and
+                side correspond to any item in its column/row.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2>
+            <u>The TFT Sets</u>
+          </h2>
+          <p>
+            Each set in TFT had a certain gimmick<span class="note"
+              >(except for Set 1 because the company didn't know what direction
+              they were going yet).</span
+            >
+            This set gimmick is Galaxies, with each galaxy having its own
+            gimmick. Galaxies can change the boards or how many items you can
+            get.<br />
+          </p>
+        </div>
+        <div class="container">
+          <h3>
+            <u>List of Galaxies(as of 8/20/20)</u>
+          </h3>
+          <p>
+            Normal: Regular game, nothing special, 20% chance of getting this
+            galaxy, 10% for all other galaxies.<br /><br />
+          </p>
+          <!--           Learn more: Grid Card
+          https://getbootstrap.com/docs/4.5/components/card/#grid-cards -->
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fthumbnails%2F0005adcd-c260-479e-8b56-259061c71ea0.image.png?1598037794798"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Dwarf Planet</h5>
+                  <p class="card-text">
+                    The back row on every board is disabled; units cannot be
+                    placed and Infiltrators cannot jump to the back row. The
+                    board is now 3 rows for every person.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F79ed1818-854d-4475-aaa0-c99b2499823f.image.png?1598037728713"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Galactic Armory</h5>
+                  <p class="card-text">
+                    Everyone receives the same 3 components on a gold orb on
+                    stage 1-1.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fthumbnails%2F29946497-99c0-40a3-8dd3-8fe99f2a09bc.image.png?1598037522888"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Manatee's Delight</h5>
+                  <p class="card-text">
+                    Everyone receives the same 3 components on a gold orb on
+                    stage 1-1.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fe226e697-ba05-4e9b-9624-e91f99c5cd7f.image.png?1598035580844"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Plunder Planet</h5>
+                  <p class="card-text">
+                    During combat, every champion has a chance to drop one gold,
+                    especially the first champion(Space Pirate gold is separate
+                    from this galaxy's gold).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fthumbnails%2F71637b52-7dff-4b4f-906c-ac2e6bc42b4b.image.png?159803678582700"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Salvage World</h5>
+                  <p class="card-text">
+                    Selling a champion with full items will break the item back
+                    into its components(i.e. selling a unit with Red Buff breaks
+                    it back into a Vest and a Belt).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fthumbnails%2F3b444042-9c1b-470f-81c4-b142d060c205.image.png?1598036010257"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Superdense Galaxy</h5>
+                  <p class="card-text">
+                    Everyone receives a Force of Nature at Stage 3-1.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2F64726891-f1be-4d44-9e39-a13389a7ffce.image.png?1598036463388"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Trade Sector</h5>
+                  <p class="card-text">
+                    Everyone gets one free reroll every round; these rerolls
+                    cannot be saved for later.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="https://cdn.glitch.com/e6dac082-cd94-466f-8053-1190fe65fcd1%2Fthumbnails%2F71637b52-7dff-4b4f-906c-ac2e6bc42b4b.image.png?159803678582700"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Treasure Trove</h5>
+                  <p class="card-text">
+                    ALL minions and monsters drop loot orbs(which can spawn item
+                    components, champions, and gold).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /row row-cols-1 row-cols-md-3 -->
+      </div>
+      <div class="container">
+        <h2>
+          <u>The Last, but Important Thing About TFT</u>
+        </h2>
+        <p>
+          Riot, the parent company of League of Legends can "patch" in changes
+          to ANY facet of the game, whether it be changing unit's values because
+          it is deemed too strong, to cycling galaxies, to completely change the
+          set<span class="note">(Set 4 is coming in September 2020).</span
+          ><br />
+          They release on a consistent patch schedule: every 2 weeks. However,
+          if some synergy or unit is extremely strong and everyone plays it<span
+            class="note"
+            >(for example if some unit spammed their ability too much)</span
+          >
+          Riot does also do hotfixes, which weakens the unit/synergy
+          overperforming.<br />
+          These patches are needed because no one wants to see the same old
+          units and synergies do well. The patches themselves could be small or
+          big, depending on results from the last patch.<br />
+          Adapting to these patches and finding out what is good through
+          research is the key to winning games. Or you could be completely
+          casual and play for fun and go for chase synergies.<br />
+          There are also resources that you can use to get better, such as TFT
+          Discord servers and streamers.<br />
+          In TFT, the world(or I guess galaxy?) is your oyster.
+        </p>
+      </div>
+
+      <div class="container note">
+        <small
+          >*When I use this notation, it means how many units of this
+          class/origin at minimum is needed on your board to activate that
+          synergy. In this synergy, you would need to have 6 unique units with
+          the Blademaster class to get the 70% chance instead of just 30%</small
+        >
+      </div>
+    </main>
+    <footer>
+      <div class="copy text-center">
+        <p>
+          &copy; 2020
+        </p>
+        <p>
+          <a href="#top"><u>Back to Top</u></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

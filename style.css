@@ -1,0 +1,153 @@
+/* CSS files add styling rules to your content */
+:root {
+  --txt-white: #fff;  
+  --black: #000;  
+}
+
+main {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+body {
+  background-image: linear-gradient(
+    270deg,
+    rgba(255, 233, 0, 0.7),
+    rgba(0, 0, 255, 0.5)
+  );
+  color: #000; /*black*/
+  font-family: Lucida Console;
+}
+
+h1 {
+  font-style: italic;
+  color: green;
+}
+h2 {
+  font-size: 2em;
+}
+h1, h2, h3 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+/* img {
+  height: 200px;
+  margin: 50px;
+} */
+
+.jumbotron {
+  background-image: url("https://imgix.bustle.com/uploads/image/2020/4/1/050662cb-982d-4eb7-8866-d697980d9fe6-tft-set3-jhin-splash-art.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+/* .jumbotrontwo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11550px;
+} */
+.copy {
+  color: red;
+}
+.ap {
+  background-color: purple;
+  color: var(--txt-white);
+}
+.ad {
+  background-color: rgb(255, 140, 0);
+}
+.as {
+  background-color: red;
+  width: fit-content;
+}
+.hp {
+  background-color: green;
+  color: var(--txt-white);
+}
+.mana {
+  background-color: darkblue;
+  color: var(--txt-white);
+}
+.armor {
+  background-color: gray;
+}
+.mr {
+  background-color: yellow;
+}
+
+.one {
+  color: brown;
+  /* supposed to be bronze */
+}
+.two {
+  color: rgb(72, 72, 72);
+}
+.three {
+  color: rgb(255, 223, 0);
+}
+.four {
+  color: var(--txt-white);
+  /*intended to be diamond/prismatic for the chase synergies in-game, but also true damage, as it is labeled as white in the damage bar*/
+}
+.imgone {
+  object-fit: cover;
+  object-position: 3% 0;
+  height: 200px;
+  width: 215px;
+}
+.imgtwo {
+  object-fit: cover;
+  object-position: 50% 0;
+  height: 200px;
+  width: 225px;
+}
+.imgthree {
+  object-fit: cover;
+  object-position: 50% 0;
+  height: 250px;
+  width: 300px;
+}
+.note {
+  font-family: Comic Sans MS, sans-serif;
+  color: lime;
+  background-color: var(--black);
+}
+.class {
+  background-color: var(--black);
+  object-fit: cover;
+  object-position: 50% 0;
+  height: 20px;
+  width: 20px;
+}
+.trait {
+  font-size: 40px;
+  font-family: fangsong;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.7),
+    rgba(0, 255, 0, 0.5)
+  );
+}
+
+
+/* Learn more: Media Query
+https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints */
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+ */
+@media (max-width: 768px) {
+  .media {
+    display: block;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
